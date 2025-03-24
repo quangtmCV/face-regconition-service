@@ -5,3 +5,5 @@ deepface==0.0.93
 db-sqlite3==0.0.1
 tf-keras==2.19.0
 scipy==1.15.2
+scikit-learn
+opencv-python==4.10.0.84
