@@ -2,7 +2,7 @@ import cv2
 from deepface import DeepFace
 
 class EmbeddingExtractor:
-    def __init__(self, model_name="Facenet"):
+    def __init__(self, model_name="VGG-Face"):
         self.model_name = model_name
 
     def detect_face(self, image_path):
