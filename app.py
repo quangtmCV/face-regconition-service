@@ -1,5 +1,3 @@
-from os import mkdir
-
 from flask import Flask, request, jsonify
 import helper.dir
 import services.face_services
@@ -27,4 +25,4 @@ def register_image():
 
 register_image()
 
-@app.route('/api/recognize', methods=['POST'])
+# @app.route('/api/recognize', methods=['POST'])
